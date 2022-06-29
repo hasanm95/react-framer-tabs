@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.underline {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: red;
+}
+.selected {
+  background: #eee;
+}
+
+button {
+  border: 0;
+  background: #fff;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  stroke: #000;
+  margin-left: 10px;
+  cursor: pointer;
+  flex-shrink: 0;
+  position: relative;
+}
